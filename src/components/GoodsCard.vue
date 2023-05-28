@@ -64,7 +64,7 @@
             <el-upload
                 class="avatar-uploader"
                 :multiple="false"
-                :action="baseUrl+'goods/uploadAvatar'"
+                :action="baseUrl+'/goods/uploadAvatar'"
                 :with-credentials="true"
                 :show-file-list="false"
                 :on-success="handleAvatarSuccess"
